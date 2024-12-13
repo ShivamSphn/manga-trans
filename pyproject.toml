@@ -68,11 +68,6 @@ dependencies = [
     "websockets>=14.1",
     "pytest-asyncio==0.21.1",
 ]
-
-# Optional: Add GitHub dependency for pydensecrf
-# Note: You might need to handle this separately or use pip-style URL
-# "pydensecrf @ git+https://github.com/lucasb-eyer/pydensecrf.git"
-
 [tool.isort]
 profile = 'black'
 multi_line_output = 3
